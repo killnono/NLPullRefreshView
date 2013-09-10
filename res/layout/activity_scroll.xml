@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:background="@drawable/app_bg"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <com.nono.nlpullrefreshviewdemo.NLPullRefreshView android:orientation="vertical" android:id="@+id/refresh_root"
+
+		 android:layout_width="fill_parent" android:layout_height="wrap_content"
+ 		 xmlns:android="http://schemas.android.com/apk/res/android">
+    	<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+	     	android:id="@+id/scroll_view_root" 
+		android:layout_width="fill_parent" android:layout_height="fill_parent">
+			<LinearLayout   android:orientation="vertical"    android:layout_width="fill_parent"
+			android:gravity="center"
+   	 android:layout_height="fill_parent" android:id="@+id/linear_root">
+			<TextView android:layout_width="wrap_content" android:layout_height="fill_parent"
+			android:gravity="center" 
+			android:textSize="30sp" android:background="@drawable/item_bg" android:textColor="@color/black"
+			android:text="第一行哈哈哈哈哈哈" />
+			<TextView android:layout_width="wrap_content" android:layout_height="fill_parent"
+			android:gravity="center"
+			android:textSize="30sp" android:background="@drawable/item_bg" android:textColor="@color/black"
+			android:text="第二行哈哈哈哈哈哈" />
+			<TextView android:layout_width="wrap_content" android:layout_height="fill_parent"
+			android:gravity="center"
+			android:textSize="30sp" android:background="@drawable/item_bg" android:textColor="@color/black"
+			android:text="第三行哈哈哈哈哈哈" />
+			<TextView android:layout_width="wrap_content" android:layout_height="fill_parent"
+			android:gravity="center"
+			android:textSize="30sp" android:background="@drawable/item_bg" android:textColor="@color/black"
+			android:text="第四行哈哈哈哈哈哈" />
+			<TextView android:layout_width="wrap_content" android:layout_height="fill_parent"
+			android:gravity="center"
+			android:textSize="30sp" android:background="@drawable/item_bg" android:textColor="@color/black"
+			android:text="第五行哈哈哈哈哈哈" />
+			<TextView android:layout_width="wrap_content" android:layout_height="fill_parent"
+			android:gravity="center"
+			android:textSize="30sp" android:background="@drawable/item_bg" android:textColor="@color/black"
+			android:text="第六行哈哈哈哈哈哈" />
+			<TextView android:layout_width="wrap_content" android:layout_height="fill_parent"
+			android:gravity="center"
+			android:textSize="30sp" android:background="@drawable/item_bg" android:textColor="@color/black"
+			android:text="第七行哈哈哈哈哈哈" />
+				<TextView android:layout_width="wrap_content" android:layout_height="fill_parent"
+			android:gravity="center"
+			android:textSize="30sp" android:background="@drawable/item_bg" android:textColor="@color/black"
+			android:text="第八行哈哈哈哈哈哈" />
+			<TextView android:layout_width="wrap_content" android:layout_height="fill_parent"
+			android:gravity="center"
+			android:textSize="30sp" android:background="@drawable/item_bg" android:textColor="@color/black"
+			android:text="第九行哈哈哈哈哈哈" />
+			<TextView android:layout_width="wrap_content" android:layout_height="fill_parent"
+			android:gravity="center"
+			android:textSize="30sp" android:background="@drawable/item_bg" android:textColor="@color/black"
+			android:text="第十行哈哈哈哈哈哈" />
+		
+			</LinearLayout>
+    	</ScrollView>
+    
+    </com.nono.nlpullrefreshviewdemo.NLPullRefreshView>
+</LinearLayout>
