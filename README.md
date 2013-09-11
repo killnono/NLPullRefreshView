@@ -2,7 +2,9 @@ NLPullRefreshView
 =================
 the earlist Version was wrote in 2011.11。
 modifier 2013.09。
+
 修改早期版本有一些bug，最近闲的整理下了，传上完整的版本。适合listview以及scrollview。
+
 ================
 This is a Android project .Pull the View then refresh someData , apply To ListView or Scrollview
 
